@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym</title>
+</head>
+<style>
+    body {
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url("gym.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 15px;
+
+        display: inline-block;
+
+
+    }
+
+    .left img {
+        width: 80px;
+        filter: invert(100%);
+        height: 50px;
+    }
+
+    .left {
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    .center {
+
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 28px;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 15px;
+
+        display: inline-block;
+
+    }
+
+    .btn {
+        padding: 5px 5px;
+        margin: 3px 5px;
+        background-color: black;
+        color: aliceblue;
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 2px solid rgb(243, 253, 250);
+        border-radius: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(29, 28, 28);
+        color: rgb(243, 248, 250);
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px 24px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(96, 99, 99);
+    }
+
+    .container {
+        border: 3px solid rgb(245, 251, 253);
+        border-radius: 32px;
+        margin: 165px 83px;
+        padding: 7px 36px;
+        width: 33%;
+        text-align: center;
+        color: rgb(231, 239, 243);
+        ;
+        font-size: 15px;
+        float: right;
+    }
+
+    .form input {
+        text-align: center;
+        margin: 11px auto;
+        display: block;
+        width: 70%;
+        border-radius: 5px;
+        font-size: 18px;
+        color: black;
+    }
+
+    .container button {
+        display: block;
+        width: 70%;
+        margin: 20px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="not availible">
+            <div>Black bull</div>
+        </div>
+        <div class="center">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Fitness calculater</a></li>
+                    <li><a href="">Contact Us</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button> <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join the best gym of shorkot Now</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Gender ">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Email">
+            </div>
+            <button class="btn"> Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
